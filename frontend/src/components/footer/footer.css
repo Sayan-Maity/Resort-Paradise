@@ -1,0 +1,166 @@
+.footer{
+  bottom: 0;
+  width: 100%;
+  font-size: 15px;
+  color: #fff;
+}
+
+.footer .footerTop {
+  background: #2a292b;
+  padding: 80px 0px 50px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer .footerTop .footerTopContent {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footerTop .footerTopContent .logoContent{
+  width: 15rem;
+}
+
+.footer .footerTop .footerTopContent .logoContent .logo{
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer .footerTop .footerTopContent .logoContent .logo span.logoFire {
+  color: #ffb606;
+  font-size: 2rem;
+  padding-right: 0.5rem;
+  transform: translateY(-0.2rem);
+}
+
+.footer .footerTop .footerTopContent .logoContent .logo span.logoName1 {
+font-size: 1.7rem;
+font-weight: bold;
+padding-right: 0.4rem;
+transform: translateY(0.1rem);
+}
+
+.footer .footerTop .footerTopContent .logoContent .logo span.logoName2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  transform: translateY(0.3rem);
+}
+
+.footer .footerTop .footerTopContent .logoContent .address .logo,
+.footer .footerTop .footerTopContent .logoContent .phone .logo  {
+  padding-right: 0.8em;
+  
+}
+.footer .footerTop .footerTopContent .logoContent .address,
+.footer .footerTop .footerTopContent .logoContent .phone {
+  font-size: 1rem;
+  color: #757575;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.footer .footerTop .footerTopContent .logoContent .phone {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem !important;
+}
+.footer .footerTop .footerTopContent .logoContent .btn{
+  display: flex;
+  justify-content: center;
+}
+.footer .footerTop .footerTopContent .logoContent .btn button{
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.5rem 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid #ffb606;
+  background-color: #ffb606;
+  transition: 0.5s;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.footer .footerTop .footerTopContent .logoContent .btn button:hover {
+  background-color: transparent;
+  color: #ffb606;
+  transition: 0.5s;
+
+}
+
+.footer .footerTop .footerTopContent .extraLink {
+  list-style: none;
+}
+.footer .footerTop .footerTopContent .socialLink,
+.footer .footerTop .footerTopContent .ourService li:nth-child(1),
+.footer .footerTop .footerTopContent .extraLink li:nth-child(1){
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer .footerTop .footerTopContent .ourService li:nth-child(3),
+.footer .footerTop .footerTopContent .ourService li:nth-child(4),
+.footer .footerTop .footerTopContent .ourService li:nth-child(5),
+.footer .footerTop .footerTopContent .ourService li:nth-child(6),
+.footer .footerTop .footerTopContent .ourService li:nth-child(7),
+.footer .footerTop .footerTopContent .extraLink li:nth-child(3),
+.footer .footerTop .footerTopContent .extraLink li:nth-child(4),
+.footer .footerTop .footerTopContent .extraLink li:nth-child(5) {
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  color: #757575;
+  transition: 0.3s;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.footer .footerTop .footerTopContent .ourService li:nth-child(3):hover,
+.footer .footerTop .footerTopContent .ourService li:nth-child(4):hover,
+.footer .footerTop .footerTopContent .ourService li:nth-child(5):hover,
+.footer .footerTop .footerTopContent .ourService li:nth-child(6):hover,
+.footer .footerTop .footerTopContent .ourService li:nth-child(7):hover,
+.footer .footerTop .footerTopContent .extraLink li:nth-child(3):hover,
+.footer .footerTop .footerTopContent .extraLink li:nth-child(4):hover,
+.footer .footerTop .footerTopContent .extraLink li:nth-child(5):hover {
+  cursor: pointer;
+  color: #ffb606;
+}
+
+.footer .footerTop .footerTopContent .ourService {
+  list-style: none;
+}
+
+.footer .footerTop .footerTopContent .socialLink {
+  list-style: none;
+}
+.footer .footerTop .footerTopContent .socialLink .divider,
+.footer .footerTop .footerTopContent .ourService .divider,
+.footer .footerTop .footerTopContent .extraLink .divider {
+ background-color: #ffb606;
+ height: 1px;
+ width: 2.5rem;
+ margin: 0.8rem 0;
+}
+
+.footer .footerBottom  {
+  background: #222122;
+  padding: 25px 0px;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer .footerBottom .footerBottomContent {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footerBottom .footerBottomContent  span{
+  font-family: 'Montserrat', sans-serif;
+  color: #757575;
+
+}

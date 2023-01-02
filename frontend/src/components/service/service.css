@@ -1,0 +1,131 @@
+.services {
+    width: 100%;
+    background-image: url("../../images/banner.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.services .overlayBackground {
+    background-color: rgba(0, 0, 0, 0.708);
+    width: 100%;
+    height: 100%;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.services .overlayBackground .resortMain{
+    width: 100%;
+    max-width: 1150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.services .overlayBackground .resortMain .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services .overlayBackground .resortMain .left .heading1 span{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.services .overlayBackground .resortMain .left .heading1 {
+    margin-bottom: 5px;
+}
+
+.services .overlayBackground .resortMain .left .heading1 span:nth-child(1){
+    color: #ffb606;
+}
+
+.services .overlayBackground .resortMain .left .heading1 span:nth-child(2){
+    color: #fff;
+}
+
+.services .overlayBackground .resortMain .left .divider {
+    background-color: rgba(255, 255, 255, 0.472);
+    height: 1px;
+    width: 4.5rem;
+    margin-bottom: 1.6rem;
+}
+
+.services .overlayBackground .resortMain .left .desc1 {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 1.6rem;
+    color: rgba(255, 255, 255, 0.882);
+
+}
+
+.services .overlayBackground .resortMain .left .desc2 {
+    width: 55rem;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+    color: #898989;
+}
+
+.serviceItem {
+    display: flex;
+    gap: 2rem;
+    color: #898989;
+}
+
+.eachServiceItem{
+    border: 1px solid #898989;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem !important;
+    width: 25%;
+    background-color: transparent;
+    transition: 0.3s;
+}
+.eachServiceItem:hover {
+    border-color: #ffb606;
+}
+.eachServiceItem .heading {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.882);
+}
+.eachServiceItem .desc {
+    color: rgba(255, 255, 255, 0.882);
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+}
+
+.services .overlayBackground .resortMain .left .icon {
+    border: 1.5px solid #ffb606;
+    border-radius: 50%;
+    padding: 0.6rem 1.2rem;
+    display: flex;
+    justify-content: center;
+    width: 4rem;
+    height: 5rem;
+}
+.services .overlayBackground .resortMain .left .icon span.iconLogo{
+    color: #ffb606;
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+
+

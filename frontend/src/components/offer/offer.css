@@ -1,0 +1,114 @@
+.offer {
+    width: 100%;
+    background-image: url("../../images/banner.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.offer .overlayBackground {
+    background-color: rgba(0, 0, 0, 0.458);
+    width: 100%;
+    height: 100%;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.offer .overlayBackground .offerMain{
+    width: 100%;
+    max-width: 1150px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+
+}
+
+.offer .overlayBackground .offerMain .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.264);
+    padding: 1rem;
+    border-radius: 50%;
+}
+.offer .overlayBackground .offerMain .left .imgFrame {
+    background-image: url("../../images/demo1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24rem;
+    width: 24rem;
+    border-radius: 50%;
+}
+.offer .overlayBackground .offerMain .left .imgFrame img{
+    border-radius: 50%;
+    height: 18rem;
+    width: 16rem;
+
+}
+.offer .overlayBackground .offerMain .right {
+    color: #fff;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+    
+}
+.offer .overlayBackground .offerMain .right .heading1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 1.5rem;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.offer .overlayBackground .offerMain .right .heading1 .align {
+    display: flex;
+    align-items: baseline;
+}
+.offer .overlayBackground .offerMain .right .heading1 .align span {
+    padding-right: 1rem;
+}
+.offer .overlayBackground .offerMain .right .heading1 .align .underline {
+    width: 6rem;
+    background-color: #fff;
+    height: 0.12rem;
+    display: flex;
+    align-items: center;
+}
+.offer .overlayBackground .offerMain .right .heading2 {
+    text-align: left;
+    padding-bottom: 1.5rem;
+    line-height: 2.4rem;
+}
+
+.offer .overlayBackground .offerMain .right .heading2 span {
+    font-size: 2.9rem;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.offer .overlayBackground .offerMain .right .heading2 span:nth-child(2) {
+    color: #ffb606;
+}
+
+.offer .overlayBackground .offerMain .right .btn {
+    display: flex;
+    
+}
+.offer .overlayBackground .offerMain .right .btn button {
+    padding: 0.6rem 1.8rem;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffb606;
+    border: 1px solid #ffb606;
+    color: #fff;
+    transition: 0.3s;
+}
+.offer .overlayBackground .offerMain .right .btn button:hover {
+    background-color: transparent;
+    border: 1px solid #ffb606;
+    color: #ffb606;
+    cursor: pointer;
+}

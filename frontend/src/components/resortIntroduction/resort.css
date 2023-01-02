@@ -1,0 +1,73 @@
+.resort{
+    margin-top: 4rem;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+}
+.resort .resortMain{
+    width: 100%;
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+}
+.resort .resortMain .left {
+    width: 35rem;
+}
+.resort .resortMain .left .heading1 span{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.resort .resortMain .left .heading1 {
+    margin-bottom: 5px;
+}
+.resort .resortMain .left .heading1 span:nth-child(1){
+    color: #ffb606;
+}
+.resort .resortMain .left .divider {
+    background-color: #222;
+    height: 1px;
+    width: 4.5rem;
+    margin-bottom: 1.6rem;
+}
+.resort .resortMain .left .desc1 {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 1.6rem;
+    color: #898989;
+    
+}
+.resort .resortMain .left .heading2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    
+}
+.resort .resortMain .left .heading2 span {
+    font-family: 'Montserrat', sans-serif;
+
+}
+.resort .resortMain .left .desc2 {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+    color: #898989;
+
+}
+.resort .resortMain .left .btn button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 1px solid #222;
+    background-color: transparent;
+    color: #222;
+    transition: 0.3s;
+}
+.resort .resortMain .left .btn button:hover {
+    background-color: #ffb606;
+    border-color: #ffb606;
+    cursor: pointer;
+    color: #fff;
+}

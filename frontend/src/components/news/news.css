@@ -1,0 +1,179 @@
+.news {
+    background-color: #f6f6f6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.news .mainNews {
+    width: 100%;
+    max-width: 1150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.news .mainNews .left {
+    width: 68%;
+}
+
+.news .mainNews .right {
+    width: 32%;
+}
+
+.news .mainNews .left .heading span, .news .mainNews .right .heading,
+.news .mainNews .left .heading span, .news .mainNews .left .heading {
+    padding: 2.8rem 0;
+}
+
+.news .mainNews .left .heading span, .news .mainNews .right .heading span{
+    font-size: 2rem ;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.8rem;    
+}
+
+.news .mainNews .left .heading span:nth-child(1), .news .mainNews .right .heading span:nth-child(1) {
+    color: #ffb606;
+}
+
+.news .mainNews .right .allEvents {
+    box-shadow: 0px 3px 35px 0px rgb(0 0 0 / 9%);
+    padding: 0.5rem 2.5rem;
+}
+
+.news .mainNews .right .allEvents .event1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 0 ;
+}
+
+.news .mainNews .right .allEvents .event1:nth-child(1) {
+    border-bottom: 1px solid #e9e9e9 !important;
+}
+
+.news .mainNews .right .allEvents .event1:nth-child(2) {
+    border: 0;
+}
+
+.news .mainNews .right .allEvents .btn {
+    padding: 2rem 0;
+}
+
+.news .mainNews .right .allEvents .btn a {
+    text-decoration: underline;
+    color: #ffb606;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.news .mainNews .right .allEvents .event1 .mainDate{
+    border: 1px solid #e9e9e9;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    color: #ffb606;
+    padding: 0.5rem 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.news .mainNews .right .allEvents .event1 .mainDate .datee{
+    font-size: 3rem !important;
+    margin: -0.8rem 0;
+    font-weight: bold;
+}
+
+.news .mainNews .right .allEvents .event1 .mainDate .month {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.news .mainNews .right .allEvents .event1 .topic {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.9rem;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.news .mainNews .left .divs {
+    display: flex;
+    flex-direction: row;
+}
+
+.news .mainNews .left .divs .div1, .news .mainNews .left .divs .div2 {
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.news .mainNews .left .divs .div1 .img, .news .mainNews .left .divs .div2 .img{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #222;
+    margin-bottom: 1rem;
+}
+
+.news .mainNews .left .divs .div1 .img:hover .overlay, .news .mainNews .left .divs .div2 .img:hover .overlay {
+    background-color: rgba(17, 17, 17, 0.557);
+    height: 100%;
+    width: 100%;
+    transition: 0.6s;
+}
+
+.news .mainNews .left .divs .div1 .img {
+    background-image: url("../../images/news-img1.jpg");
+}
+
+.news .mainNews .left .divs .div2 .img {
+    background-image: url("../../images/news-img2.jpg");
+}
+
+.news .mainNews .left .divs .div1 .content .heading span, .news .mainNews .left .divs .div2 .content .heading span{
+    font-size: 1.2rem !important;
+    color: #111;
+}
+
+.news .mainNews .left .divs .div1 .content .datee, .news .mainNews .left .divs .div2 .content .datee {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bold;
+    color: #a0a0a0;
+}
+.news .mainNews .left .divs .div1 .content .heading, .news .mainNews .left .divs .div2 .content .heading {
+    padding: 0;
+    margin: 1rem 0;
+}
+.news .mainNews .left .divs .div1 .content .desc, .news .mainNews .left .divs .div2 .content .desc  {
+    margin-bottom: 1rem;
+    color: #a0a0a0;
+
+}
+.news .mainNews .left .divs .div1 .content .btn a, .news .mainNews .left .divs .div2 .content .btn  a{
+    color: #ffb606 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+
+
+
+
+
+
+

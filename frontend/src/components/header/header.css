@@ -1,0 +1,164 @@
+.headerr {
+  background: linear-gradient(to bottom, #333, rgb(116, 116, 116), #fff);
+  color: white;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.headerContainer {
+  width: 100%;
+  max-width: 1150px;
+  /* margin: 20px 0px 0px 0px; */
+}
+
+.headerContainer.listMode {
+  margin: 6rem 0;
+}
+
+.headerList {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.headerListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerListItem.active {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.headerDesc {
+  margin: 20px 0px;
+}
+
+.headerBtn {
+  color: #fff;
+  background-color: #ffb606;
+  border: 2px solid #ffb606 !important;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.headerBtn:hover {
+  border: 2px solid #ffb606 !important;
+  background-color: transparent;
+  color: #ffb606;
+
+}
+
+.headerSearch {
+  z-index: 2;
+  background-color: #fff;
+  box-shadow: 0px 3px 57px 0px rgb(0 0 0 / 18%);
+  /* border: 3px solid #febb02; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+  position: absolute;
+  top: -3rem;
+  width: 100%;
+  max-width: 1150px;
+  display: flex;
+}
+
+.headerIcon {
+  color: #8c8c8c;
+}
+
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headerSearchItem .arrowIcon{
+  color: #8c8c8c;
+  rotate: 180deg;
+}
+
+.headerSearchItem:nth-child(1), .headerSearchItem:nth-child(2), .headerSearchItem:nth-child(3){
+  padding: 0.8rem 1.5rem;
+  border: 1px solid #dedede;
+
+}
+
+.headerSearchInput {
+  border: none;
+  outline: none;
+  color: #b8b8b8;
+  
+}
+.headerSearchInput::placeholder {
+  color: #b8b8b8;
+  font-size: 1rem;
+}
+
+.headerSearchText {
+  cursor: pointer;
+  color: #b8b8b8 ;
+  
+}
+
+.date {
+  position: absolute;
+  top: 5.2rem;
+  z-index: 2;
+  border: 1px solid #b8b8b8;
+  box-shadow: 0px 3px 57px 0px rgb(0 0 0 / 18%);
+
+}
+
+.options {
+  z-index: 2;
+  position: absolute;
+  top: 5.2rem ;
+  background-color: white;
+  color: gray;
+  border: 1px solid #b8b8b8;
+
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 3px 57px 0px rgb(0 0 0 / 18%);
+}
+.options::placeholder {
+  color: red;
+}
+
+.optionItem {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.optionCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+.optionCounterButton {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0071c2;
+  color: #0071c2;
+  cursor: pointer;
+  background-color: white;
+}
+
+.optionCounterButton:disabled {
+  cursor: not-allowed;
+}
