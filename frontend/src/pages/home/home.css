@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.homeContainer{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeTitle{
+  width: 1024px;
+  font-size: 20px;
+}
+
+.backgroundImage{
+  display: flex;
+  margin: auto;
+
+  background-image: url("../../images/banner.jpg");
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  height: 100vh;
+  width: 100%;
+  opacity: 1;
+}
+
+.heading-and-text{
+  /* background-color: rgb(208, 136, 136); */
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  height: 20rem;
+  display: flex;
+  top: 3vh;
+  left: 15rem;
+  transform: translate(12rem, 16rem);
+  color: #fff;
+  
+}
+.heading-and-text span.heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 2rem;
+  line-height: 1.1;
+}
+
+.heading-and-text span.desc {
+  padding-bottom: 2rem;
+  font-weight: 500;
+  
+}
+
+.heading-and-text .reserveBtn button {
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border: 2px solid #fff;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+.heading-and-text .reserveBtn button:hover {
+  background-color: #ffb606;
+  border-color: #ffb606;
+  transition: 0.3s;
+}
+
+.homeTitle{
+  width: 100%;
+  max-width: 1150px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  padding: 3rem 0;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.homeTitle p span {
+  color: #ffb606;
+
+}
+
+.homeContainer .underline {
+  width: 4rem;
+  background-color: #333;
+  height: 0.12rem;
+  align-items: flex-start;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
